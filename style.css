@@ -1,0 +1,111 @@
+/* Message.html*/
+.form-message{
+    margin: 15% 25%;
+    color: #d48e8e;
+}
+.submit-send{
+  margin:auto;
+  display:block;
+  color:#6cb6ac;
+}
+.submit-send:hover{
+    color:#6cb6ac;
+  }
+/* end Message.html*/
+.img-logo{
+    width: 200px;
+}
+/* Animation */
+#fade-animation {
+    animation: 5s fadein 0.5s forwards;
+	opacity: 0;
+}
+@keyframes fadein {
+	100% {
+		opacity: 1;
+	}
+}
+/* End animation */
+
+.navbar-text{
+color:#6cb6ac;
+cursor: pointer;
+text-shadow: #e0e0e0 1px 1px 0 30%;
+}
+.navbar-text:hover{
+    cursor: pointer;
+    color:#4a8d84;
+}
+.about-me-text{
+    font-family: "Rubik", sans-serif, "Poly";
+    line-height: 130%;
+}
+.about-me-background{
+    
+    width:100%;
+    background: url(inspiration/abstract1.jpg) 50% 0 no-repeat fixed;
+    background-size:cover;
+   }
+.padding-container{
+    margin-top: 10rem;
+    color: rgba(18, 124, 115, 0.884);
+    padding: 100px;
+    letter-spacing: 1px;
+    font-family: "Rubik", sans-serif;
+}
+/* Show SKILLS*/ 
+.tooltip{ 
+    position:relative;
+    float:right;
+  }
+  .tooltip > .tooltip-inner {background-color: #eebf3f; padding:5px 15px; color:rgb(23,44,66); font-weight:bold; font-size:13px;}
+  .popOver + .tooltip > .tooltip-arrow {	border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #eebf3f;}
+  
+  section{
+    margin-top: 180px;
+    margin-left: 10%;
+  }
+  .progress{
+    border-radius:10px;
+    overflow:visible;
+    background-color: #d48e8e;
+  }
+  .progress-bar{
+     background:#6cb6ac;
+    -webkit-transition: width 1.5s ease-in-out;
+    transition: width 1.5s ease-in-out;
+  }
+  .progressText{
+      color:#27423f;
+  }
+  
+  
+  /* Contact me background on index page */
+/* .contact-container{
+    padding: 2px;
+} */
+.contact-me-background{
+    width:100%;
+    background: url(inspiration/abstract2.jpg) 50% 0 no-repeat fixed;
+    background-size:cover;
+}
+.input-opacity{
+    background-color: rgba(252, 250, 250, 0.3);
+    border: aliceblue;
+}
+.input-opacity.submit-send {
+    background-color: rgba(252, 250, 250, 0.5);
+}
+@media only screen and (max-width: 800px) {
+    .padding-container{
+        margin-top: 10rem;
+        padding: 20px;
+    }
+    section{
+        margin-left: 0;
+      }
+  }
+@media only screen and (max-width: 800px) {
+    
+  }
+
